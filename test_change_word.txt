@@ -1,0 +1,17 @@
+Dec 14 12:15:00 --- last message repeated 1 time ---
+Dec 14 12:15:00 ip-176-199-1-241 com.apple.xpc.launchd[1] (com.wacom.wacomtablet[76921]): Service exited due to SIGSEGV | sent by exc handler[76921]
+Dec 14 12:15:00 ip-176-199-1-241 com.apple.xpc.launchd[1] (com.wacom.wacomtablet): Service only ran for 1 seconds. Pushing respawn out by 1 seconds.
+Dec 14 12:15:00 ip-176-199-1-241 com.apple.xpc.launchd[1] (com.wacom.pentablet[76922]): Service exited due to SIGSEGV | sent by exc handler[76922]
+Dec 14 12:15:00 ip-176-199-1-241 com.apple.xpc.launchd[1] (com.wacom.pentablet): Service only ran for 1 seconds. Pushing respawn out by 1 seconds.
+Dec 15 12:15:00 --- last message repeated 1 time ---
+Dec 16 12:15:00 ip-176-199-1-241 CRON[43002]: Error: exited with status 2 [#1234] (jamie)
+Dec 17 12:15:00 ip-176-199-1-241 com.apple.xpc.launchd[1] (com.wacom.wacomtablet): Service only ran for 1 seconds. Pushing respawn out by 1 seconds.
+Dec 17 12:15:00 ip-176-199-1-241 com.apple.xpc.launchd[1] (com.wacom.pentablet[76922]): Service exited due to SIGSEGV | sent by exc handler[76922]
+Dec 18 12:15:00 ip-176-199-1-241 com.apple.xpc.launchd[1] (com.wacom.pentablet): Service only ran for 1 seconds. Pushing respawn out by 1 seconds.
+Dec 15 12:15:00 --- last message repeated 1 time ---
+Dec 16 12:15:00 ip-176-199-1-241 CRON[43002]: Error: exited with status 4 [#1234] (jamie)
+Dec 15 12:15:00 --- last message repeated 1 time ---
+Dec 16 12:15:00 ip-176-199-1-241 CRON[43002]: Error: exited with status 3 [#1234] (jamie)
+Dec 16 12:15:00 ip-176-199-1-241 ticky: Error: exited with status 2 [#1234] (sseol)
+Dec 15 12:15:00 --- last message repeated 1 time ---
+Dec 16 12:15:00 ip-176-199-1-241 ticky: Error: exited with status 1 [#1234] (cbass)

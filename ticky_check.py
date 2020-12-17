@@ -17,11 +17,13 @@ def count_error_types(logfile, program_name):
     with open(logfile, "r") as f:
         file = f.readlines()
         for line in file:
+            error = re.search(r': ERROR', line)
+            info = re.search(r': INFO', line)
             if program_name not in line:
                 continue
             if "INFO" in line:
                 continue
-            if "INFO" not in line:
+            if error is not None:
                 error = re.search(r'ERROR ([\w ]*)', line)[1].strip()
                 if error not in error_types:
                     error_types[error] = 1

@@ -1,5 +1,7 @@
 Error,Count
-Error: exited with status 2,2
-Error: exited with status 4,1
-Error: exited with status 3,1
-Error: exited with status 1,1
+Timeout while retrieving information,15
+Connection to DB failed,13
+Tried to add information to closed ticket,12
+Permission denied while closing ticket,10
+The ticket was modified while updating,9
+Ticket doesn,7

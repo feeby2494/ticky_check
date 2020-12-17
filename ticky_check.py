@@ -6,7 +6,7 @@ import csv
 
 #modify these values for your own purpose or use sys.argv[1] and sys.argv[2]
 logfile = "syslog.log"
-program_name = None
+program_name = "ticky"
 
 def count_error_types(logfile, program_name):
     error_types = {}
@@ -75,9 +75,9 @@ def user_stats_csv_generator(sorted_dict_of_user_stats):
     return None
 
 if __name__ == "__main__":
-    errors = count_error_types(logfile, sys.argv[2])
+    errors = count_error_types(logfile, program_name)
     errors = sort_errors(errors)
-    per_user = user_stats(logfile, sys.argv[2])
+    per_user = user_stats(logfile, program_name)
     per_user = sort_by_user(per_user)
     type_of_errors_csv_generator(errors)
     user_stats_csv_generator(per_user)
